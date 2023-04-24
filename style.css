@@ -1,0 +1,79 @@
+body{
+    background-color: navy;
+}
+
+#main{
+    height: 50vh;
+    width: 30%;
+    background-color: azure;
+    margin-left: 35%;
+    margin-top: 10%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#heading{
+    border: 1px solid grey;
+    text-align: center;
+    color: blue;
+}
+#label{
+    margin-top: 10%;
+}
+#date-label{
+    color: blue;
+    margin-left: 8%;
+}
+#month-label{
+    color: blue;
+    margin-left: 23%;
+}
+#year-label{
+    color: blue;
+    margin-left: 23%;
+}
+#field{
+    display: flex;
+    margin-top: 3%;
+}
+#date-input{
+    height: 4vh;
+    width: 6.5vw;
+    margin-left: 8%;
+    border: 2px solid blue;
+    border-radius: 2px;
+}
+#month-input{
+    height: 4vh;
+    width: 6.5vw;
+    margin-left: 6.9%;
+    border: 2px solid blue;
+    border-radius: 2px;
+}#year-input{
+    height: 4vh;
+    width: 6.5vw;
+    margin-left: 10%;
+    border: 2px solid blue;
+    border-radius: 2px;
+}
+#submit-btn{
+    text-align: center;
+    margin-top: 10%;
+    height: 5vh;
+    width: 6.5vw;
+    background-color: rgb(67, 67, 246);
+    color: white;
+    margin-left: 39%;
+    border: none;
+    border-radius: 2px;
+}
+#submit-btn:hover{
+    cursor: pointer;
+    background-color: blue;
+}
+#final-result{
+    color: blue;
+    margin-top: 10%;
+    margin-left: 3%;
+   
+}
